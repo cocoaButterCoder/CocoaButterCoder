@@ -13,4 +13,10 @@
         android:src="@drawable/scenic_view"
         android:scaleType="centerCrop"/>
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/me"
+        android:layout_centerInParent="true"/>
+
 </RelativeLayout>
