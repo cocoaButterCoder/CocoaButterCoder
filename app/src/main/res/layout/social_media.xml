@@ -20,13 +20,15 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/twitter"
-            android:scaleType="center"/>
+            android:scaleType="center"
+            android:onClick="openTwitter"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/linkedin"
+            android:onClick="openLinkedIn"
             android:scaleType="center"/>
     </LinearLayout>
 
@@ -41,14 +43,16 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/github"
-            android:scaleType="center"/>
+            android:scaleType="center"
+            android:onClick="openGithub"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/gmail"
-            android:scaleType="center"/>
+            android:scaleType="center"
+            android:onClick="sendEmail"/>
     </LinearLayout>
 
 </LinearLayout>
